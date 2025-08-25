@@ -24,7 +24,6 @@ Tempo total estimado: **6 a 12 meses**, dependendo da dedicação.
 - **Módulo 1 (Fundamentos – 1 a 2 meses)**  
   - Linux  
   - Redes  
-  - Vagrant  
 
 - **Módulo 2 (Automação – 1 a 2 meses)**  
   - Ansible  
@@ -72,8 +71,8 @@ Cada tópico possui um plano de estudos em separado, cobrindo:
 ## 🛠️ Projetos de Consolidação
 Ao final de cada módulo, sugerimos projetos práticos:  
 
-- **Fundamentos**: montar um servidor Linux com rede virtual no Vagrant.  
-- **Automação**: provisionar servidores com Ansible + Terraform.  
+- **Fundamentos**: configurar um servidor Linux com rede virtual.  
+- **Automação**: provisionar ambientes completos com Ansible + Terraform.  
 - **Containers**: rodar microserviços com Docker e orquestrar com Swarm/Kubernetes.  
 - **Observabilidade**: monitorar cluster com Prometheus + Grafana.  
 - **Virtualização**: criar um laboratório de VMs no Proxmox.  
@@ -84,7 +83,7 @@ Ao final de cada módulo, sugerimos projetos práticos:
 
 ## ✅ Checklist Final – DevOps Engineer
 - [ ] Dominar Linux e Redes.  
-- [ ] Provisionar ambientes com Vagrant + Ansible + Terraform.  
+- [ ] Provisionar ambientes com Ansible + Terraform.  
 - [ ] Trabalhar com containers (Docker) e orquestração (Swarm/Kubernetes).  
 - [ ] Monitorar sistemas com Prometheus + Grafana.  
 - [ ] Usar Proxmox para laboratórios de virtualização.  
@@ -100,5 +99,3 @@ Ao final de cada módulo, sugerimos projetos práticos:
 Não tente aprender tudo de uma vez.  
 📈 Foque no **progresso contínuo** → teoria + prática + projeto.  
 🔥 O mais importante é **construir experiência prática em projetos reais**.  
-
----

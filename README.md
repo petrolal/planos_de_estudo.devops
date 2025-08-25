@@ -1,206 +1,104 @@
-# 🚀 Roadmap DevOps – Do Zero ao Avançado
+# 🚀 Roadmap DevOps
 
-Este roadmap foi criado para organizar um **plano completo de estudos para se tornar DevOps Engineer**, baseado em práticas reais do mercado e nas exigências mais comuns em **vagas de emprego**.  
-
-A trilha vai desde **fundamentos de Linux e Redes** até **Kubernetes, Cloud, Observabilidade, DevSecOps e SRE**.  
-O foco é **mão na massa**: cada módulo tem teoria + prática + projeto.
+Este roadmap foi criado para guiar os estudos de quem deseja se tornar **DevOps Engineer**, cobrindo desde fundamentos até práticas avançadas e ferramentas usadas no mercado.
 
 ---
 
-## 📌 Pré-requisitos
-Antes de iniciar, é importante ter:
-- Noções de **programação** (Python, JavaScript ou Shell Script).  
-- Familiaridade com **Git** e controle de versão.  
-- Vontade de aprender **linha de comando**.  
+## 🎯 Objetivo
+- Criar uma trilha de estudos organizada.  
+- Passar por fundamentos de infraestrutura, automação, containers, orquestração, observabilidade, CI/CD, segurança e cloud.  
+- Ter uma formação prática com projetos reais.
 
 ---
 
-## 🧭 Estrutura do Roadmap
-
-### 🔹 1. Mentalidade DevOps
-- Cultura e princípios DevOps (CALMS).  
-- Quebra de silos → Dev + Ops + Sec juntos.  
-- Infra como Código, Automação e Feedback Contínuo.  
-- Leitura: *The Phoenix Project* e *The DevOps Handbook*.  
-
-📄 [Plano Mentalidade DevOps](#)
+## 📍 Pré-requisitos
+- Conhecimentos básicos de programação (Python, Shell, Java ou outra linguagem).  
+- Linux básico (linha de comando).  
+- Git e versionamento de código.  
 
 ---
 
-### 🔹 2. Linux (4 semanas)
-- Fundamentos do sistema, usuários, permissões.  
-- Processos, pacotes, discos, redes.  
-- Shell Script e automação.  
-- **Projeto:** Servidor Linux com usuários, firewall e serviço web.  
+## 📅 Sugestão de Cronograma
+Tempo total estimado: **6 a 12 meses**, dependendo da dedicação.  
 
-📄 [Plano Linux](#)
+- **Módulo 1 (Fundamentos – 1 a 2 meses)**  
+  - Linux  
+  - Redes  
+  - Vagrant  
 
----
+- **Módulo 2 (Automação – 1 a 2 meses)**  
+  - Ansible  
+  - Terraform  
 
-### 🔹 3. Redes de Computadores (4 semanas)
-- Modelo OSI/TCP-IP, IPv4/IPv6.  
-- Roteamento, NAT, firewall.  
-- Testes com ping, traceroute, tcpdump.  
-- **Projeto:** Lab com roteador Linux + firewall + cliente/servidor.  
+- **Módulo 3 (Containers e Orquestração – 2 a 3 meses)**  
+  - Docker  
+  - Otimização de Containers  
+  - Docker Swarm  
+  - Kubernetes  
 
-📄 [Plano Redes](#)
+- **Módulo 4 (Observabilidade – 1 a 2 meses)**  
+  - Prometheus & Grafana  
 
----
+- **Módulo 5 (Virtualização – 1 mês)**  
+  - Proxmox  
 
-### 🔹 4. Virtualização com Vagrant (2 semanas)
-- Conceitos de VM vs Containers.  
-- Criação de múltiplas VMs com provisionamento.  
-- Redes privadas e públicas.  
-- **Projeto:** VM web + VM banco conectadas em rede interna.  
+- **Módulo 6 (CI/CD – 2 a 3 meses)**  
+  - GitLab CI  
+  - Jenkins  
+  - Groovy (para Pipelines, Gradle e automação)  
+  - SonarQube  
 
-📄 [Plano Vagrant](#)
+- **Módulo 7 (Cloud e Segurança – 2 a 3 meses)**  
+  - AWS  
+  - Azure  
+  - DevSecOps  
 
----
-
-### 🔹 5. Contêineres – Docker (4 semanas)
-- Fundamentos de imagens e containers.  
-- Volumes, redes, Docker Compose.  
-- Multi-stage builds e segurança.  
-- **Projeto:** Stack web + banco + proxy reverso com Compose.  
-
-📄 [Plano Docker](#)
-
----
-
-### 🔹 6. Automação – Ansible (4 semanas)
-- Inventários, playbooks e roles.  
-- Variáveis, templates, handlers.  
-- Integrações com Docker, Terraform, K8s.  
-- **Projeto:** Infra automatizada com web + banco + load balancer.  
-
-📄 [Plano Ansible](#)
+- **Módulo 8 (Cultura & Mindset – Contínuo)**  
+  - Mentalidade DevOps  
 
 ---
 
-### 🔹 7. Infraestrutura como Código – Terraform (4 semanas)
-- Providers, resources e state.  
-- Variáveis, outputs e módulos.  
-- Remote State + Workspaces.  
-- **Projeto:** Subir app completo (VPC + EC2 + RDS) em nuvem.  
+## 📚 Conteúdos Detalhados
+Cada tópico possui um plano de estudos em separado, cobrindo:  
+- 📘 Teoria essencial  
+- 🛠️ Hands-on com exemplos práticos  
+- 🧪 Projetos para fixação  
+- 📅 Cronograma sugerido  
 
-📄 [Plano Terraform](#)
-
----
-
-### 🔹 8. Cloud Computing (AWS, Azure, GCP) (6-8 semanas)
-- Fundamentos: Regiões, IAM, Redes, Storage, Compute.  
-- AWS: EC2, S3, RDS, VPC, IAM.  
-- Azure: Resource Groups, VMs, VNets, Key Vault, AKS.  
-- GCP: Compute Engine, Cloud Storage, Pub/Sub, GKE.  
-- **Projeto:** Deploy de aplicação multi-tier em cloud (EC2/App Service/Compute Engine).  
-
-📄 [Plano AWS](#) | [Plano Azure](#) | *(GCP opcional)*  
+> Veja os arquivos correspondentes (`plano-*.md`) para cada tópico.
 
 ---
 
-### 🔹 9. Orquestração – Kubernetes (6 semanas)
-- Pods, Deployments, Services, ConfigMaps, Secrets.  
-- Persistência (PVC, StorageClass).  
-- HPA, Probes e Updates.  
-- Ingress e RBAC.  
-- **Projeto:** App full-stack (frontend + backend + DB) em K8s.  
+## 🛠️ Projetos de Consolidação
+Ao final de cada módulo, sugerimos projetos práticos:  
 
-📄 [Plano Kubernetes](#)
-
----
-
-### 🔹 10. CI/CD (GitLabCI, Jenkins, GitHub Actions, ArgoCD) (6 semanas)
-- Pipelines multi-stage: build, test, deploy.  
-- Runners, artefatos e cache.  
-- Deploy automatizado em Docker/K8s.  
-- GitOps com ArgoCD.  
-- **Projeto:** Pipeline completo (build → test → security → deploy em K8s).  
-
-📄 [Plano GitLabCI](#)
+- **Fundamentos**: montar um servidor Linux com rede virtual no Vagrant.  
+- **Automação**: provisionar servidores com Ansible + Terraform.  
+- **Containers**: rodar microserviços com Docker e orquestrar com Swarm/Kubernetes.  
+- **Observabilidade**: monitorar cluster com Prometheus + Grafana.  
+- **Virtualização**: criar um laboratório de VMs no Proxmox.  
+- **CI/CD**: pipeline completo no Jenkins/GitLab, com Groovy + SonarQube.  
+- **Cloud**: deploy em AWS/Azure com segurança DevSecOps.  
 
 ---
 
-### 🔹 11. Observabilidade (4-6 semanas)
-- Métricas com Prometheus.  
-- Dashboards com Grafana.  
-- Logs: ELK/EFK, Loki.  
-- Tracing: Jaeger, Tempo.  
-- **Projeto:** Stack observability monitorando aplicação + cluster.  
-
-📄 [Plano Prometheus + Grafana](#)
-
----
-
-### 🔹 12. DevSecOps (4-6 semanas)
-- SAST, DAST e Dependency Scanning.  
-- Scan de imagens Docker (Trivy).  
-- Gestão de segredos (Vault, Key Vault, Sealed Secrets).  
-- Policies de segurança em K8s (RBAC, Kyverno).  
-- **Projeto:** Pipeline CI/CD com segurança integrada em todas as fases.  
-
-📄 [Plano DevSecOps](#)
+## ✅ Checklist Final – DevOps Engineer
+- [ ] Dominar Linux e Redes.  
+- [ ] Provisionar ambientes com Vagrant + Ansible + Terraform.  
+- [ ] Trabalhar com containers (Docker) e orquestração (Swarm/Kubernetes).  
+- [ ] Monitorar sistemas com Prometheus + Grafana.  
+- [ ] Usar Proxmox para laboratórios de virtualização.  
+- [ ] Criar pipelines em GitLab CI e Jenkins.  
+- [ ] Automatizar com Groovy e validar qualidade com SonarQube.  
+- [ ] Ter experiência prática em Cloud (AWS/Azure).  
+- [ ] Aplicar práticas de DevSecOps.  
+- [ ] Adotar a mentalidade DevOps de colaboração, automação e melhoria contínua.  
 
 ---
 
-### 🔹 13. Virtualização Avançada – Proxmox (opcional, 6 semanas)
-- KVM, LXC, redes, storage.  
-- Cluster + HA + Ceph.  
-- Integração com Ansible e Terraform.  
-- **Projeto:** Cluster Proxmox com HA + automação IaC.  
-
-📄 [Plano Proxmox](#)
+## 📌 Dica Final
+Não tente aprender tudo de uma vez.  
+📈 Foque no **progresso contínuo** → teoria + prática + projeto.  
+🔥 O mais importante é **construir experiência prática em projetos reais**.  
 
 ---
-
-### 🔹 14. Complementos Importantes
-- **Mensageria**: Kafka, RabbitMQ, SQS.  
-- **Service Mesh**: Istio, Linkerd.  
-- **CI/CD alternativos**: GitHub Actions, Jenkins, ArgoCD.  
-- **Multi-cloud**: AWS + Azure + GCP.  
-
----
-
-### 🔹 15. SRE – Site Reliability Engineering (4 semanas)
-- Conceitos de SLO, SLI e Error Budgets.  
-- Automação de incidentes.  
-- Postmortems sem culpa (*blameless*).  
-- Monitoramento focado em confiabilidade.  
-- **Projeto:** Definir SLIs e SLOs para aplicação e configurar alertas.  
-
----
-
-## 📅 Linha do Tempo (12 meses sugeridos)
-- **Mês 1-2:** Linux + Redes.  
-- **Mês 3:** Vagrant + Docker.  
-- **Mês 4:** Ansible.  
-- **Mês 5:** Terraform.  
-- **Mês 6-7:** Cloud (AWS/Azure/GCP).  
-- **Mês 8-9:** Kubernetes.  
-- **Mês 10:** CI/CD (GitLabCI/Jenkins).  
-- **Mês 11:** Observabilidade + DevSecOps.  
-- **Mês 12:** Projeto Final + SRE.  
-
----
-
-## 🏁 Projeto Final – DevOps Lab Completo
-- **Infra**: Provisionada com Terraform em Cloud (AWS/Azure/GCP).  
-- **Configuração**: Ansible para setup de VMs e serviços.  
-- **Containers**: Docker + Kubernetes (EKS/AKS/GKE).  
-- **CI/CD**: Pipeline GitLabCI/Jenkins com testes e deploy automatizado.  
-- **Segurança**: Scans de código, containers e policies de segurança.  
-- **Observabilidade**: Prometheus + Grafana + ELK/EFK + Falco.  
-- **SRE**: Definição de SLIs/SLOs + alertas + postmortems.  
-
-📌 **Entrega final:** Repositório GitHub documentado com todos os labs, IaC, pipelines e diagramas.
-
----
-
-## 🔑 Dicas de Estudo
-- Estude **todo dia** (mesmo 30min já ajuda).  
-- Documente tudo no seu **GitHub** → serve como portfólio.  
-- Monte **mini-projetos semanais** aplicando o conteúdo.  
-- Leia sempre as **documentações oficiais**.  
-- Participe de comunidades DevOps (Slack, Discord, Fóruns).  
-
----
-
